@@ -1,0 +1,340 @@
+ body {
+  margin: 0;
+padding:0;
+}
+
+header{
+  background-color:#0BFF5E;
+}
+
+.Main-header{
+  width: 100%;
+}
+.Left{
+  float: left;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+.Right{
+  float: right;
+}
+.ul{
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.Right ul li{
+  display: inline-block;
+padding: 10px 15px 5px 15px;
+/* padding: 10px 15px 5px; */
+font-size: 17px;
+font-family: Montserrat;
+}
+.Right a{
+  text-decoration: none;
+color: #000;
+}
+.section{
+      display: block;
+}
+
+.Banner{
+  position: relative;
+}
+.Banner img{
+  width: 100%;
+height: 500px;
+}
+.Banner-content{
+  position: absolute;
+transform: translate(59%, -197%);
+font-size: 33px;
+font-family: Montserrat;
+color: #fff;
+text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+.Wrap{
+  max-width: 1140px;
+margin: 0 auto;
+padding: 0 50px;
+
+}
+
+
+h1{
+  display: block;
+font-size: 2em;
+margin-block-start: 0.67em;
+margin-block-end: 0.67em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+.Card-section{
+      margin: 30px 0;
+}
+.Row{
+  width: 100%;
+}
+.Column{
+    width: 23%;
+    float: left;
+    text-align: center;
+    background-color: #c4fb6d;
+    margin: 11px;
+}
+.Column img {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 50px;
+}
+.Image-border{
+      border-top: 5px solid white;
+}
+h2{
+  padding-top: 30px;
+font-family: Montserrat;
+font-weight: 900;
+display: block;
+font-size: 1.5em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+.Card-para{
+  padding: 30px;
+font-family: Montserrat;
+}
+
+.Extra{
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+}
+
+.Section-title{
+      text-align: center;
+}
+.Section-heading{
+  padding-top: 96px;
+padding-bottom: 20px;
+font-weight: bold;
+
+padding-top: 30px;
+font-family: Montserrat;
+font-weight: 900;
+
+display: block;
+font-size: 1.5em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.Section-para{
+  padding-bottom: 20px;
+  font-family: Montserrat;
+}
+
+.Section-column{
+  width: 23%;
+    float: left;
+    margin: 11px;
+}
+.Img-section-trending{
+  width: 100%;
+border-radius: 5%;
+}
+.Image-heading{
+  font-family: Merriweather;
+padding: 10px 0;
+}
+.Image-content{
+      font-family: Montserrat;
+}
+#Property{
+  background-color: #c4fb6d;
+padding-top: 100px;
+}
+.description{
+  text-align: center;
+}
+.Property-image {
+    height: 200px;
+}
+h2.Property-heading {
+    text-align: center;
+}
+.Property-para {
+    text-align: center;
+}
+.property-image {
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .property-row {
+      width: 100%;
+      float: right;
+  }
+  .clearfix {
+      clear: both;
+      content: "";
+      display: table;
+}
+
+.Property-column {
+width: 31.33%;
+float: left;
+margin: 9px;
+}
+
+
+h3 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Merriweather;
+}
+
+
+.property-row-para {
+  width: 5px;
+
+
+}
+
+.Our-company{
+      margin-bottom: 90px;
+}
+.Company-description{
+  text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+.Company-description-para{
+  padding-top: 10px;
+    font-size: 17px;
+    font-family: Montserrat;
+}
+.Our-company-row{
+      width: 100%;
+}
+.Our-company-column{
+  width: 48%;
+float: left;
+margin: 0 8px;
+}
+.About-text{
+  line-height: 1.5;
+font-family: Montserrat;
+font-size: 15px;
+}
+.List{
+  margin-top: 15px;
+      padding-left: 0;
+}
+.List li{
+  list-style: none;
+    margin-top: 10px;
+}
+.Arrow-point{
+  float: left;
+height: 20px;
+}
+.Points{
+      padding-left: 30px;
+}
+.My-button{
+  box-shadow: 1px 11px 17px -6px #3e7327;
+    background: linear-gradient(to bottom, #c5fb6d 5%, #578540 100%);
+    background-color: #c5fb6d;
+    border-radius: 6px;
+    border: 1px solid #4b8f29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: -1px 2px 0px #5b8a3c;
+    margin-top: 10px;
+}
+.Our-company-image{
+  margin-top: 20px;
+height: 296px
+}
+.Footer-background{
+  background-color: #000000;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Row-Footer{
+      width: 100%;
+}
+.Column-footer{
+  width: 23%;
+float: left;
+margin: 11px;
+}
+h5{
+
+    font-family: Montserrat;
+    color: #c4fb6d;
+    text-shadow: 0 0 0.8em #c4fb6d, 0 0 0.6em #bac964;
+}
+.Company-adress{
+  font-family: Merriweather;
+    font-size: 12px;
+    line-height: 3;
+    color: #ffffff;
+}
+
+.Company-phone{
+  font-family: Merriweather;
+font-size: 12px;
+line-height: 3;
+color: #ffffff;
+}
+
+ul.Footer-list{
+  list-style: none;
+padding: 0;
+line-height: 1.5;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.List-item{
+  padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Footer-links{
+  text-decoration: none;
+font-family: Montserrat;
+color: #ffffff;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+a:hover{
+   text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+
+}
